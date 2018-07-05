@@ -2,8 +2,8 @@
 # Fresnel example notebooks
 
 These [jupyter](https://jupyter.org/) notebooks provide a tutorial for the
-[fresnel](https://bitbucket.org/glotzer/fresnel/`) visualization software. Static versions are included in
-[fresnel's documentation](http://fresnel.readthedocs.io/`).
+[fresnel](https://bitbucket.org/glotzer/fresnel/) visualization software. Static versions are included in
+[fresnel's documentation](http://fresnel.readthedocs.io/).
 
 You can [install fresnel](https://fresnel.readthedocs.io/en/stable/installation.html) and run these examples
 interactively. Different installation methods require different steps to launch.
