@@ -2,7 +2,7 @@
 # Fresnel example notebooks
 
 These [jupyter](https://jupyter.org/) notebooks provide a tutorial for the
-[fresnel](https://bitbucket.org/glotzer/fresnel/) visualization software. Static versions are included in
+[fresnel](https://github.com/glotzerlab/fresnel) visualization software. Static versions are included in
 [fresnel's documentation](http://fresnel.readthedocs.io/).
 
 You can [install fresnel](https://fresnel.readthedocs.io/en/stable/installation.html) and run these examples
@@ -13,7 +13,7 @@ interactively. Different installation methods require different steps to launch.
 Clone the **fresnel-examples** repository and start **jupyter notebook**
 
 ```bash
-▶ git clone https://bitbucket.org/glotzer/fresnel-examples.git
+▶ git clone https://github.com/glotzerlab/fresnel-examples
 ▶ cd fresnel-examples
 ▶ jupyter notebook
 ```
@@ -23,7 +23,7 @@ Clone the **fresnel-examples** repository and start **jupyter notebook**
 Clone the **fresnel-examples** repository.
 
 ```bash
-▶ git clone https://bitbucket.org/glotzer/fresnel-examples.git
+▶ git clone https://github.com/glotzerlab/fresnel-examples
 ▶ cd fresnel-examples
 ```
 
