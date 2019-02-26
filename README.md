@@ -28,10 +28,10 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 
 ### Advanced topics
 
-* [Multiple geometries](01-Advanced-topics/00-Multiple-geometries.ipynb)
-* [Devices](01-Devices.ipynb)
-* [Tracer methods](02-Tracer-methods.ipynb)
-* [Interactive scene view](03-Interactive-scene-view)
+* [Multiple geometries](02-Advanced-topics/00-Multiple-geometries.ipynb)
+* [Devices](02-Advanced-topics/01-Devices.ipynb)
+* [Tracer methods](02-Advanced-topics/02-Tracer-methods.ipynb)
+* [Interactive scene view](02-Advanced-topics/03-Interactive-scene-view)
 
 ## Executing the examples
 
