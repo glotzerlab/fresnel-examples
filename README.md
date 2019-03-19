@@ -58,9 +58,11 @@ Clone the **fresnel-examples** repository.
 ▶ cd fresnel-examples
 ```
 
-The image contains all software needed to execute these notebooks. Use singularity to launch the container:
+The [glotzerlab-software](https://glotzerlab-software.readthedocs.io) image contains all software needed to execute
+these notebooks. Pull the image, then use singularity to launch the container:
 
 ```bash
+▶ singularity pull --name "software.simg" shub://glotzerlab/software
 ▶ singularity exec -B $XDG_RUNTIME_DIR software.simg jupyter notebook
 ```
 
@@ -80,8 +82,8 @@ container accesses the configuration in your home directory on the host system. 
 
 ### Docker container
 
-The **glotzerlab/software** image contains all software needed to execute these notebooks and a copy of the notebooks
-themselves in ``/fresnel-examples``. Run this command to start **jupyter**:
+The [glotzerlab-software](https://glotzerlab-software.readthedocs.io) image contains all software needed to execute
+these notebooks and a copy of the notebooks themselves in ``/fresnel-examples``. Run this command to start **jupyter**:
 
 ```bash
 ▶ docker run --rm -p 127.0.0.1:9999:9999 glotzerlab/software jupyter notebook --port 9999 --ip 0.0.0.0 --no-browser /fresnel-examples
