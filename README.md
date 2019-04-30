@@ -33,6 +33,7 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 * [Devices](02-Advanced-topics/01-Devices.ipynb)
 * [Tracer methods](02-Advanced-topics/02-Tracer-methods.ipynb)
 * [Interactive scene view](02-Advanced-topics/03-Interactive-scene-view.ipynb)
+* [Rendering images in matplotlib](02-Advanced-topics/04-Rendering-images-in-matplotlib.ipynb)
 
 ## Executing the examples
 
