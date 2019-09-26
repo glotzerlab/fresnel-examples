@@ -26,6 +26,7 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 * [Convex polyhedron](01-Primitives/02-Convex-polyhedron-geometry.ipynb)
 * [Mesh](01-Primitives/03-Mesh-geometry.ipynb)
 * [Polygon](01-Primitives/04-Polygon-geometry.ipynb)
+* [Polygon](01-Primitives/05-Box-geometry.ipynb)
 
 ### Advanced topics
 
