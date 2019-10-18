@@ -26,6 +26,7 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 * [Convex polyhedron](01-Primitives/02-Convex-polyhedron-geometry.ipynb)
 * [Mesh](01-Primitives/03-Mesh-geometry.ipynb)
 * [Polygon](01-Primitives/04-Polygon-geometry.ipynb)
+* [Box](01-Primitives/05-Box-geometry.ipynb)
 
 ### Advanced topics
 
@@ -34,6 +35,7 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 * [Tracer methods](02-Advanced-topics/02-Tracer-methods.ipynb)
 * [Interactive scene view](02-Advanced-topics/03-Interactive-scene-view.ipynb)
 * [Rendering images in matplotlib](02-Advanced-topics/04-Rendering-images-in-matplotlib.ipynb)
+* [GSD visualization](02-Advanced-topics/05-GSD-visualization.ipynb)
 
 ## Executing the examples
 
