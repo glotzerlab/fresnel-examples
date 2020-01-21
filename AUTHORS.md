@@ -5,3 +5,4 @@
 * Bradley Dice - University of Michigan
 * Mike Henry - Boise State University
 * Jenny Fothergill - Boise State University
+* Corwin Kerr - University of Michigan
