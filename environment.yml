@@ -1,0 +1,11 @@
+name: fresnel
+channels:
+  - conda-forge
+dependencies:
+  - fresnel==0.12.0
+  - jupyterlab==2.2.8
+  - matplotlib==3.3.2
+  - numpy==1.19.1
+  - ipywidgets==7.5.1
+  - qhull==2015.2 # the 2019.1 version gives me this error: 'qhull_r 7.3.2 (2019.1.r 2019/06/21)' is not reentrant (e.g., qhull.so) or out-of-date.
+  - gsd==2.2.0

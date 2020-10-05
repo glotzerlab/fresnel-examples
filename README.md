@@ -1,4 +1,5 @@
 # Fresnel example notebooks
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mikemhenry/fresnel-examples/feat/cache-mybinder?urlpath=lab/tree/index.ipynb)
 
 These [jupyter](https://jupyter.org/) notebooks provide a tutorial for the
 [fresnel](https://github.com/glotzerlab/fresnel) visualization software. Static versions are included in
