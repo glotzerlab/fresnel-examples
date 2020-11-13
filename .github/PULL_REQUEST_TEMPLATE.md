@@ -3,7 +3,7 @@
 <!-- Describe your changes in detail. -->
 
 <!-- Replace ??? with the issue number that this pull request resolves. -->
-Resolves: #???
+Resolves #???
 
 ## Checklist:
 - [ ] I have reviewed the [**Contributor Guidelines**](https://github.com/glotzerlab/fresnel-examples/blob/master/CONTRIBUTING.md).
