@@ -37,74 +37,18 @@ Demonstrate each of the geometry primitives that you can use to build a **fresne
 * [Rendering images in matplotlib](02-Advanced-topics/04-Rendering-images-in-matplotlib.ipynb)
 * [GSD visualization](02-Advanced-topics/05-GSD-visualization.ipynb)
 
-## Executing the examples
+## Prerequisites
 
-You can [install fresnel](https://fresnel.readthedocs.io/en/stable/installation.html) and run these examples
-interactively. Different installation methods require different steps to launch.
+These examples use the following python packages:
 
-### Host installation (from source or anaconda package)
+* [fresnel](https://github.com/glotzerlab/fresnel)
+* [GSD](https://github.com/glotzerlab/gsd)
+* [jupyter](http://jupyter.org/)
+* [matplotlib](http://matplotlib.org/)
+* [pillow](https://python-pillow.org/)
 
-Clone the **fresnel-examples** repository and start **jupyter notebook**
-
-```bash
-▶ git clone https://github.com/glotzerlab/fresnel-examples
-▶ cd fresnel-examples
-▶ jupyter notebook
-```
-
-### Singularity container
-
-Clone the **fresnel-examples** repository.
+Anaconda users can install these from [conda-forge](https://conda-forge.org/):
 
 ```bash
-▶ git clone https://github.com/glotzerlab/fresnel-examples
-▶ cd fresnel-examples
+conda install -c conda-forge fresnel gsd jupyter matplotlib pillow
 ```
-
-The [glotzerlab-software](https://glotzerlab-software.readthedocs.io) image contains all software needed to execute
-these notebooks. Pull the image, then use singularity to launch the container:
-
-```bash
-▶ singularity pull --name "software.simg" shub://glotzerlab/software
-▶ singularity exec -B $XDG_RUNTIME_DIR software.simg jupyter notebook
-```
-
-Add ``--nv`` after exec to utilize GPUs.
-
-Explanation:
-
-* ``singularity exec`` - Ask singularity to execute a command in a container.
-* ``-B $XDG_RUNTIME_DIR`` - Bind mount your user specific temporary director. Jupyter uses this directory and
-  singularity does not mount it by default.
-* ``software.simg`` - The image to launch.
-* ``jupyter notebook`` Execute ``jupyter notebook`` inside the image
-
-Once **jupyter** starts, point your browser to the URL **jupyter** prints on the terminal. **jupyter** inside the
-container accesses the configuration in your home directory on the host system. If you have a password configured for
-**jupyter** on your host system, use that to login. Otherwise, the URL should include a token that will log you in.
-
-### Docker container
-
-The [glotzerlab-software](https://glotzerlab-software.readthedocs.io) image contains all software needed to execute
-these notebooks and a copy of the notebooks themselves in ``/fresnel-examples``. Run this command to start **jupyter**:
-
-```bash
-▶ docker run --rm -p 127.0.0.1:9999:9999 glotzerlab/software jupyter notebook --port 9999 --ip 0.0.0.0 --no-browser /fresnel-examples
-```
-
-If you have installed the docker NVIDIA runtime, add ``--runtime=nvidia`` after ``run`` to utilize your GPUs.
-
-Explanation:
-
-* ``docker run`` - Ask docker to run a command in a container.
-* ``--runtime=nvidia`` - (if applicable) use the NVIDIA runtime to make host GPUS accessible in the container.
-* ``--rm`` - Delete the container after exiting.
-* ``-p 127.0.0.1:9999:9999`` - Make port 9999 in the container available at ``localhost:9999``.
-* ``glotzerlab/software`` - name of the image to execute.
-* ``jupyter notebook`` - execute the **jupyter** notebook.
-* ``--port 9999 --ip 0.0.0.0`` - **jupyter** should listen on port 9999 for connections from outside the container.
-* ``--no-browser`` - Tell Jupyter not to attempt to launch a browser.
-* ``/fresnel-examples`` - Location of the example notebooks in the image.
-
-Once **jupyter** starts, point your browser to ``localhost:9999``. Copy the token from the **jupyter** terminal output
-and paste it into the password box to access the notebook.
