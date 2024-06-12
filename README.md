@@ -47,8 +47,8 @@ These examples use the following python packages:
 * [matplotlib](http://matplotlib.org/)
 * [pillow](https://python-pillow.org/)
 
-Anaconda users can install these from [conda-forge](https://conda-forge.org/):
+Install these packages from [conda-forge](https://conda-forge.org/):
 
 ```bash
-conda install -c conda-forge fresnel gsd jupyter matplotlib pillow
+mamba install fresnel gsd jupyter matplotlib pillow
 ```
